@@ -1,0 +1,22 @@
+{
+  "name": "Labkey HTML Update",
+  "version": "1.0",
+  "description": "Automatically update the HTML of one of your pages",
+  "permissions": ["declarativeContent", "storage", "tabs","notifications", "http://*/", "https://*/"],
+  "commands": {
+    "update" : {
+      "suggested_key": {
+        "default": "Ctrl+D"
+      },
+      "description": "Update"
+    }
+  },
+  "background": {
+    "scripts": ["jquery-3.4.1.min.js", "background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
