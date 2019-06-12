@@ -1,5 +1,5 @@
 # Labkey AutoUpdate
-Simple chrome extension/AutoHotkey script to make developing LabKey wiki pages easier by allowing you to use your favorite text editor. 5 minute setup to save countless, select all, copy, switch to chrome, etc.
+Simple chrome extension/AutoHotkey script to make developing LabKey wiki pages easier by allowing you to use your favorite text editor.
 
 ## Installation
 

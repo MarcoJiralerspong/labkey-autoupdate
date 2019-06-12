@@ -54,4 +54,15 @@ $(document).ready(function(){
         })
     });
 
+    // $('#downloadSource').click(function(){
+    //
+    //
+    //     var blob = new Blob(["array of", " parts of ", "text file"], {type: "text/plain"});
+    //     var url = URL.createObjectURL(blob);
+    //     chrome.downloads.download({
+    //         url: url // The object URL can be used as download URL
+    //         //...
+    //     });
+    // })
+
 });
